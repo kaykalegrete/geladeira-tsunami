@@ -1,0 +1,144 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing:border-box;
+}
+body{
+	background-color: #303030;
+}
+.cabeçalho{
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    flex-flow: wrap-reverse;
+    font-size: 90px;
+    background-color: white;
+    width: 100%;
+    font-weight: bold;
+    height: 120px;
+}
+.jose{
+	display: flex;
+	justify-content: center;
+}
+.ppp{
+	width: 40%;
+}
+.foto{
+	width: 120px;
+	margin: 0 0 0 60px
+}
+.fotoh{
+	width: 120px;
+	margin: 0 0 0 150px
+}
+p{
+	font-size: 40px;
+	padding: 0 0 0 210px;
+	font-weight: bold;
+	font-family: arial;
+	}
+.cavalos{
+	background-color: #252525;
+	height:100%;
+	width:200px;
+	position:fixed;
+	overflow: hidden;;
+	top: 0px;
+	}
+.cavalos ul{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.cavalos li{
+	display: flex;
+		
+}
+.cavalos a{
+	font-weight: bold;
+	text-decoration:none;
+	color:#000000;
+	font-size: 30px;
+	display:block;
+	padding:20px 0 20px 0;
+	font-family: arial;
+	text-align:left;
+	width: 100%;
+}
+.cavalos a:hover{
+	color:#00008B;
+	background-color:#006400;
+}
+.casinha{
+	color: #c0c0c0;
+	font-size: 35px;
+}
+.segunda{
+	font-size: 30px;
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	border: 1px solid white;
+	border-collapse: collapse;
+	width: 40%;
+}
+.terça{
+	font-size: 30px;
+	position: absolute;
+	top: 90%;
+	left: 30%;
+	border: 1px solid white;
+	border-collapse: collapse;
+	width: 40%;
+}
+.quarta{
+	font-size: 30px;
+	position: absolute;
+	top: 150%;
+	left: 30%;
+	border: 1px solid white;
+	border-collapse: collapse;
+	width: 40%;
+}
+.quinta{
+	font-size: 30px;
+	position: absolute;
+	top: 210%;
+	left: 30%;
+	border: 1px solid white;
+	border-collapse: collapse;
+	width: 40%;
+}
+.sexta{
+	font-size: 30px;
+	position: absolute;
+	top: 270%;
+	left: 30%;
+	border: 1px solid white;
+	border-collapse: collapse;
+	width: 40%;
+}
+th{
+	background-color: #FF4500;
+	text-align: center;
+	text-decoration: none;
+	font-family: arial;
+	padding:  0 0 0 150px;
+}
+
+td{
+	font-weight:bold;
+	text-decoration: none;
+	font-family: arial;
+	border: 1px solid white;
+}
+.materia{
+	background-color: #006400 ;
+}
+.recreio{
+	background-color:#0000FF;	
+}
+.fim{
+	background-color: #8B0000;
+}
